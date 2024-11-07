@@ -1,0 +1,24 @@
+/* Set up the basic body styling */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  /* Style the circle */
+  #circle {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    border-radius: 50%;
+    position: absolute;
+    transition: all 1s ease; /* Make transitions smooth */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add a little shadow */
+  }
+  
